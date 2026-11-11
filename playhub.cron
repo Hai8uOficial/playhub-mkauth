@@ -1,0 +1,3 @@
+# Sincronização automática PlayHub com os clientes vinculados do MK-AUTH.
+# Arquivo independente: não altera o agendamento central do MK-AUTH.
+*/5 * * * * root /opt/php8/bin/php /opt/mk-auth/admin/addons/PlayHub/cron.php >/dev/null 2>&1
