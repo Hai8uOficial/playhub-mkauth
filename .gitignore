@@ -1,0 +1,5 @@
+addons.class.php
+assets/catalog-logos/*
+!assets/catalog-logos/.htaccess
+*.anterior
+*.backup
